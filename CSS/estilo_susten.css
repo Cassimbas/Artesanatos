@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: play;
+    src: url(../fontes/bubblegum-sans-regular.otf);
+}
+
+#ps
+{
+    display: block;
+    width: 60%;
+    float: left;
+    border-right: 2px;
+    margin: 5px auto;
+}
+
+#lateral_ps
+{
+    display: block;
+    width: 30%;
+    float: right;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+#ps p, #lateral_ps p
+{
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+h1.titulo_ps
+{
+    color: rgb(11, 167, 240);
+    font-size: 1.9em;
+    text-align: center;
+    margin: 2px 0px;
+    font-family: play;
+}
+
+table
+{
+    text-align: center;
+    margin: 0px auto;
+}
+
+/* AQUI AS CONFIGURAÇÕES DO XBOX*/
+
+#xbd
+{
+    display: block;
+    width: 61%;
+    float: left;
+    border-right: 2px;
+    margin: 5px auto;
+    padding: 0px 0px 0px 15px;
+}
+
+#lateral_xbd
+{
+    display: block;
+    width: 30%;
+    float: right;
+    margin: 5px auto;
+    padding: 10px;
+ }
+
+#xbe
+{
+    display: block;
+    width: 60%;
+    float: right;
+    border-right: 2px;
+        margin: 5px auto;
+    padding: 0px 15px 0px 0px;
+}
+
+#lateral_xbe
+{
+    display: block;
+    width: 30%;
+    float: left;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+#xb p, #lateral_xb p
+{
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+#xb h2
+{
+    color: rgb(11, 167, 240);
+    font-size: 1.2em;
+    text-align: center;
+    margin: 2px 0px;
+}
+
+table
+{
+    text-align: center;
+    margin: 0px auto;
+}
