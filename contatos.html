@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--DETERMINAR A LINGUAGEM-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--COMPATIBILIDADE COM ACENTOS-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--QUE ESTÁ CONFIGURADO PARA RODAR TAMBÉM NO EDGE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ADAPTAR A TELA-->
+
+    <meta name="description" content="Aqui você ira encontrar o melhor do mundo do artesanato..">
+
+    <meta name="keyworld"
+        content="trico, tricotar, montagens, criar, sustentavel, modelagen, argila, linha, agulha, tesoura, papel, cola, costura">
+
+    <title> ARTESANATO </title>
+
+    <link rel="shortcu icon" href="imagens/20210908_150947.ico">
+    <!--ESSA LINHA LIBERA O ICONE QUE FICA NA PARTE SUPERIOR ESQUERDO DA PAGINA-->
+
+    <link rel="stylesheet" type="text/css" href="css/estilo_home.css">
+    <!---->
+    <link rel="stylesheet" type="text/css" href="css/estilo_contatos.css">
+
+</head>
+
+<body>
+    <div id="interface">
+        <!--TAG <main>  NESSE CASO JÁ FOI INCLUINDO UM NOME PARA A TAG DIV-->
+
+        <header class="topo">
+            <!--ESSA PARTE É A PARTE QUE IREMOS INCLUIR UMA IMAGEM NO TOPO DA PAGINA-->
+            <img src="imagens/pexels-suzy-hazelwood-1124884.jpg" alt="logo" title="Foto de Sanketh Rao no Pexels">
+            <!--O CAMINHO PARA BUSCAR A IMAGEM QUE INCLUIREMOS NA PAGINA-->
+
+            <nav class="menu">
+                <ul>
+                    <!--LISTA NÃO ORDENADA NA HORIZONTAL-->
+                    <li> <a href="index.html"> HOME </a> </li>
+                    <!--DESCRIÇÃO DA LISTA - COM A TAG <a href... É PARA DEIXAR ESSA PALAVRA CLICAVEL-->
+
+                    <li>
+                        <!--DESCRIÇÃO DA LISTA-->
+                        <a href="susten.html"> SUSTENTABILIDA </a>
+
+                    </li>
+
+                    <li>
+                        <!--DESCRIÇÃO DA LISTA-->
+                        <a href="">GALERIAS</a>
+                        <ul>
+                            <!--NESSA LINHA ESTAMOS CRIANDO UM SUBMENU-->
+                            <li> <a href="fotos.html"> FOTOS </a> </li>
+                            <li> <a href="videos.html"> VIDEOS </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="contatos.html"> CONTATOS </a> </li>
+                    <!--DESCRIÇÃO DA LISTA-->
+                </ul>
+            </nav>
+        </header>
+
+        <section id="banner_anime">
+            <!--ESSA SESSÃO É PARA INCLUIR OS ARTIGOS NO SITE-->
+            <img id="anime1" src="imagens/pexels-sanketh-rao-716107.jpg" alt=""
+                title="Foto de Suzy Hazelwood no Pexels">
+            <!--NO CASO ESTAMOS INCLUINDO DOIS BANNERS NO SITE E IDENTIFICANDO COM ID-->
+            <img id="anime2" src="imagens/pexels-pixabay-159644.jpg" alt="" title="Foto de Suzy Hazelwood no Pexels">
+        </section>
+
+        <form action="mailto:cassio.rbraga6@gmail.com" method="post">
+            <fieldset>
+                <legend> Identificação do Usuário </legend>
+                <p>
+                    <label for="cnome"> Nome </label>
+                    <input type="text" name="nome" id="cnome" size="30" maxlength="25" placeholder="Nome Completo"
+                        required autofocus> <br><br>
+                </p>
+
+                <p>
+                    <label for="cmail"> E-mail </label>
+                    <input type="text" name="mail" id="cmail" size="30" maxlength="30" placeholder="Seu e-mail"
+                        required> <br><br>
+                </p>
+
+                <p>
+                    <label for="cnasc"> Data de Nascimento </label>
+                    <input type="date" name="cnasc" id="cnasc"><br><br>
+                </p>
+
+            </fieldset>
+
+            <fieldset id="mensagem">
+                <legend> Mensagem do Usuário </legend>
+                <p>
+                    <label for="cmsg"> Mensagem </label>
+                </p>
+
+                <p>
+                    <textarea name="msg" id="cmsg" cols="50" rows="7"
+                        placeholder="Digite sua mensagem..."> </textarea><br><br>
+                </p>
+            </fieldset>
+
+            <div id=botao>
+                <input type="submit" name="enviar" class="btn" value="Enviar" id="bten">
+                <input type="reset" name="limpar" class="btn" value="Limpar" id="btli">
+            </div>
+        </form>
+
+        <footer class="rodape">
+            <p> © Desenvolvido para curso Técnico de Informática. E somente para fins educativos.</p>
+
+            <div id="menu2">
+
+                <a href="susten.html">Sustentabilidade</a>
+                <a href="fotos.html">Fotos</a>
+                <a href="videos.html">Videos</a>
+                <a href="contatos.html">Contatos</a>
+
+            </div>
+
+            <p>
+                <a target="_blank" href="https://pt-br.facebook.com/"> <img src="imagens/logo-face.png" alt="" title="">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/"> <img src="imagens/logo-instagram.png" alt=""
+                        title=""> </a>
+                <a target="_blank" href="https://twitter.com/"> <img src="imagens/logo-twitter.png" alt="" title="">
+                </a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
