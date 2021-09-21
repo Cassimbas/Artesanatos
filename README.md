@@ -4,6 +4,51 @@
 
 ![GitHub](https://img.shields.io/github/license/Cassimbas/Artesanatos)
 
+Home
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="CSS válido!" />
+    </a>
+</p>
+
+Sustentabilidade
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="CSS válido!" />
+    </a>
+</p>
+
+Fotos
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="CSS válido!" />
+    </a>
+</p>
+
+Vídeo
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="CSS válido!" />
+    </a>
+</p>
+    
+Contato
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="CSS válido!" />
+    </a>
+</p>     
+    
 
 # Site de Artesanatos
 Esse foi um projeto do curso de TI do SENAC, para desemvolver um site com o tema de artesanato 
