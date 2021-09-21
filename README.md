@@ -51,7 +51,7 @@ Contato
     
 
 # Site de Artesanatos
-Esse foi um projeto do curso de TI do SENAC, para desemvolver um site com o tema de artesanato 
+Esse foi um projeto do curso de TI do SENAC, para desenvolver um site com o tema de artesanato 
 
 Projeto apenas ***PARA FINS EDUCACIONAIS ***SEM FINS LUCRATIVOS!!!
 
